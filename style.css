@@ -1,0 +1,147 @@
+ .sign {
+ font-family : Tahoma;
+ color : black;
+ font-size : 40px;
+margin-top : 2.5em;
+font-weight : bold;
+margin-left : 18.5em;
+
+ }
+ 
+ 
+ .free {
+ font-family : Tahoma;
+ color : black;
+ font-size : 19.5px;
+margin-top : .5em;
+margin-left : 38em;
+ }
+ 
+.fname {
+margin-left : 46.5em;
+margin-top : 1.8em;
+font-family : Tahoma;
+}
+
+.lname {
+margin-left : 60.5em;
+margin-top : -2.5em;
+}
+
+.mnumber {
+margin-left : 46.5em;
+margin-top : 1.3em;
+}
+
+.remnumber {
+margin-left : 46.5em;
+margin-top : 1.3em;
+}
+
+.newpass {
+margin-left : 46.5em;
+margin-top : 1.3em;
+}
+
+.bday {
+font-family : Tahoma;
+font-size : 20px;
+margin-left: 37.2em;
+margin-top: .7em;
+
+}
+
+.month, .day, .year {
+display : inline;
+font-family : Tahoma;
+
+}
+
+.sexgender{
+margin-top :1em;
+font-family : Tahoma;
+}
+
+.why {
+font-size : 12px;
+font-family : Tahoma;
+}
+
+.terms {
+font-size :11px;
+margin-top : 1.3em;
+font-family : Tahoma;
+}
+
+.Submit {
+margin: auto;
+}
+
+
+header {
+background-color : #3b5998;
+top : 0em;
+left : 0em;
+right : 0em;
+position : absolute;
+height : 5.2em;
+
+}
+
+.facebook {
+font-family : Tahoma;
+font-size : 39px;
+font-weight : bold;
+color : white;
+margin-left: 4.6em;
+margin-top : 25px;
+
+}
+
+.email {
+display : inline;
+padding : 0px;
+margin-left : 49.3em;
+margin-top : -3.7em;
+position : absolute;
+color : white;
+font-family: Tahoma;
+}
+
+.password {
+display : inline;
+padding : 0px;
+margin-left : 59.6em;
+margin-top : -3.7em;
+position : absolute;
+color : white;
+font-family : Tahoma;
+}
+
+.Login {
+margin-left : 69.6em;
+margin-top : -2.5em;
+}
+
+.sendbtn{
+background-color : blue;
+}
+.msgto{
+background-color : blue;
+}
+.btnmsg{
+background-color : red;
+font-family : rockwell;
+
+}
+.first{
+font-family : jokerman;
+}
+.magictable{
+	border-collapse:collapse;
+	border:1px solid grey;
+}
+.magictable tr th{
+	background-color:#4CAF50;
+	color:#fff;
+}

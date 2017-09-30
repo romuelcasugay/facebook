@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "icon" href = "logo.ico">
+<title>Facebook - Log In or Sign Up</title>
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<header>
+
+
+<div class = "facebook">facebook</div>
+
+
+<form action = "login.php" method = "POST">
+<div class = "email">
+<div class = "emailtxt">Email or Phone</div>
+<input type = "text" name = "email2" placeholder= "Email or Phone" style = "width : 11.2em; height : 23.5px; margin-top: 39px;">
+</div>
+
+<div class = "password">
+<div class = "passtxt">Password</div>
+<input type = "password" name = "password" placeholder= "Password" style = "width : 11.2em; height : 23.5px; margin-top: 39px;">
+<div class = "forgot"><a href = "#">Forgot account?</a></div>
+</div>
+
+<div class = "Login">
+<input type = "submit" value = "Login" style = "background-color : #3b5998; font-family : Tahoma; color : white;">
+</div>
+</form>
+
+</header>
+
+<div class = "sign">Sign Up</div>
+<div class = "free">It's free and always will be.</div>
+
+<form method="post" action="registration.php"> 
+<div class = "fname">
+<input placeholder = "First Name" type = "text" name = "fname" style = "width : 8em; height : 40px; font-size:24px;">
+</div>
+
+<div class = "lname">
+<input placeholder = "Last Name" type = "text" name = "lname" style = "width : 8em; height : 40px; font-size:24px;">
+</div>
+
+<div class = "mnumber">
+<input placeholder = "Mobile number or email" type = "text" name = "email2" style = "width : 17.4em; height : 40px; font-size:24px;">
+</div>
+
+<div class = "remnumber">
+<input placeholder = "Re- enter mobile number or email" type = "text" name = "confirmemail2" style = "width : 17.4em; height : 40px; font-size:24px;">
+</div>
+
+<div class = "newpass">
+<input placeholder = "New Password" type = "password" name = "password2" style = "width : 17.4em; height : 40px; font-size:24px;">
+</div>
+
+<div class = "bday">
+Birthday:
+
+<div class ="month">
+	<select name = "months" placeholder = "Months">
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+		<option>April</option>
+		<option>May</option>
+		<option>Jun</option>
+		<option>July</option>
+		<option>August</option>
+		<option>September</option>
+		<option>October</option>
+		<option>November</option>
+		<option>December</option>
+		</select>
+
+
+<div class ="day">
+	<select name = "days" placeholder = "Days">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+		<option>13</option>
+		<option>14</option>
+		<option>15</option>
+		<option>16</option>
+		<option>17</option>
+		<option>18</option>
+		<option>19</option>
+		<option>20</option>
+		<option>21</option>
+		<option>22</option>
+		<option>23</option>
+		<option>24</option>
+		<option>25</option>
+		<option>26</option>
+		<option>27</option>
+		<option>28</option>
+		<option>29</option>
+		<option>30</option>
+		<option>31</option>
+		</select>
+
+
+					
+		<select name = "years"> 
+		<?php
+		echo '<option>Year</option>';
+		for ($x = 1900 ; $x <= 2017 ; $x++) {
+		echo '<option>'.$x.'</option>';
+				}
+					?>
+		</select>				
+		
+	<div class = "why"><a href = "#">Why do I need to provide my birthday?</a></div>
+		
+		</div>
+
+<div class = "sexgender">Gender:
+	<select name  = "gender" placeholder = "Gender">
+		
+		<option>Male</option>
+		<option>Female</option>
+		</select>
+		
+	</div>
+	
+<div class = "terms"><p>By clicking Sign Up, you agree to our <a href = "#">Terms</a> and that you have</p>
+                     <p>read our <a href = "#">Data Policy</a>, including our <a href= "#">Cookie Use.</a></p>
+</div>
+
+
+<div class = "Submit">
+<input type = "submit" value = "SUBMIT" style = "background-color : #27A33A; font-family : Tahoma; color : white; font-size : 14px; align : center;">
+</div>
+
+</form>
+
+
+
+
+</body>
+</html>
